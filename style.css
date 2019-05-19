@@ -1,0 +1,99 @@
+  ul{
+      color: chocolate;
+      text-align: center;
+      list-style: square;
+  }
+li{
+    text-align: center;
+    list-style-position: inside;
+    
+}
+  body{
+    font-family: sans-serif; 
+      background-image: URL(https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png
+);
+  }
+  .uppercase{
+      text-transform: capitalize;
+  }
+  #tercertitulo,#encabezado{
+      background-color: rgba(73, 59, 27, 0.842);
+      text-align: center ;
+  }
+  .titulo a{
+    border: 1px none;
+    margin-top: 5px;
+    margin: 10px;
+    display: inline-block;
+    color: azure;
+
+  }
+.titulo a:hover{
+
+    border: 1px none;
+    background-color: rgb(255, 32, 69);
+    color:crimson
+}
+ img#logo{
+      height: 170px;
+      width: 220px;
+      
+  }
+  img{
+      height:200px;
+  }
+  .primertitulo{
+      background-image: url(https://images.wallpaperscraft.com/image/background_baked_goods_cookies_sweets_79023_3840x2400.jpg)
+      ;
+      background-size: cover; 
+      height: 500px ;
+      width: 100% ;
+      min-width: 200px;
+      max-width: 100%;
+      min-height: 150px; 
+      max-height: 500px;
+      overflow : scroll ;
+
+      
+      
+     
+  }
+  
+#parteuno{
+      border: 3px groove steelblue ;
+      border-radius: 5px;
+      font-size: 40px;
+      padding:10px;
+      position: relative;
+  top: 50px;
+  width: 400px;
+  left: 700px;
+      color: black ;
+      
+      background-color: rgba(240, 255, 255, 0.384);   
+  }
+  p{text-align: center;}
+.cabezamenu a{
+    text-align: center ;
+    border: 1px none;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: azure;
+    font-size: 30px;
+  }
+  .cabezamenu a:hover{
+    text-align: center ;
+    border: 1px none;
+    color: goldenrod;
+    font-size: 30px;
+  }
+#derecha{
+      height: 50px;
+      
+  }
+  .titulotercero{
+      margin-bottom: 5px ;
+      color: azure;
+  }
